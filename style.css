@@ -1,0 +1,429 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Karla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Karla:wght@400;700&display=swap');
+/* font-family: 'Karla', sans-serif;
+/* font-family: 'DM Serif Display', serif; */
+/* background-color:  hsl(256, 26%, 20%);
+/* color: hsl(0, 0%, 98%); */
+/* Grayish Blue: hsl(216, 30%, 68%)
+ery Dark Violet: hsl(270, 9%, 17%)
+- Dark Grayish Violet: hsl(273, 4%, 51%) */ 
+    
+
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Karla', sans-serif;
+    max-width: 1440px;
+    min-width: 375px;
+    font-size: 16px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    width: 98.9vw;
+    height: 4vw;
+ 
+    
+}
+
+#introImg{
+    margin-left: 12vw;
+}
+
+.buttonsNav{
+    margin-left:35vw;
+}
+button{
+   width: 8vw;
+   height: 3vw;
+   border: none;
+   background-color: white;
+   color:hsla(0, 1%, 55%, 0.811) ;
+   text-transform: uppercase;
+   font-weight: bolder;
+   font-size: 12px;
+}
+button:hover{
+   cursor: pointer;
+   background-color: hsl(256, 26%, 20%);
+   color: white;
+
+}
+#buttonView{
+    border:black solid 2px; 
+    color: black;
+}
+#buttonView:hover{
+    color:white;
+}
+header{
+    background-color: hsl(256, 26%, 20%);
+    height: 45vw;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+}
+#containerOneImage{
+    width: 40vw;
+    margin-top: 8vw;
+    margin-right: 9vw;
+    margin-top: 10vw;
+    object-fit: contain;
+    
+}
+/* #imageIntroOne{
+    width: 28vw;
+    height: 33vw;
+    position:absolute;
+    top: 0.25vw;
+    right: 0vw;
+    z-index: 8;
+} */
+.containerOne hr{
+    width: 10vw;
+    margin-left: 1vw;
+    background-color: white;
+}
+.containerOne{
+    width: 37vw;
+    height: 17vw;
+    margin-top: 8vw;
+    margin-left: 7vw;
+    line-height: 2vw;
+    color: white;
+    
+}
+.containerOne h1{
+    font-size: 75px;
+    font-family: 'DM Serif Display', serif;
+    color: white;
+    font-weight: normal;
+    line-height:5vw;
+    margin-top: 5vw;
+
+}
+
+.containerOne button{
+    margin-top: 1vw;
+    background-color: hsl(256, 26%, 20%);
+    color: white;
+    font-weight: normal;
+    border: white solid 2px;
+}
+.containerOne button:hover{
+    background-color: white;
+    color:hsl(256, 26%, 20%);
+}
+main{
+    width: 98.9vw;
+    height: 80vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+main hr{
+    width: 10vw;
+    margin-top: 12vw;
+    margin-left: 12.5vw;
+}
+.containerTwo{
+    display: flex;
+    align-items: center;
+    max-height: 25vw;
+    max-width: 120vw;
+    margin-right: 9vw;
+    margin-left: 10vw;
+    margin-bottom: 4vw;
+    margin-top: 5vw;
+}
+.containerTwo article{
+    margin: 1.5vw;
+   line-height: 1.4vw;
+   
+
+}
+.tittleTwo h2{
+    height: 5vw;
+    width: 50vw;
+    margin-top: 2vw;
+    font-size: 75px;
+    font-family: 'DM Serif Display', serif;
+    margin-left: 12vw;
+    margin-bottom: 1vw;
+    font-weight: normal;
+
+}
+.containerTwo h3{
+    font-family: 'DM Serif Display', serif;
+    font-size: 2vw;
+    font-weight: normal;
+
+}
+
+.containerThree{
+    display: flex;
+    height: 13vw;
+    margin-right: 11vw;
+    margin-left: 11.4vw;
+    background-color: hsl(256, 26%, 20%);
+    margin-bottom: 2vw;
+    margin-top: 2vw;
+
+}
+.containerThree button{
+    background-color: hsl(256, 26%, 20%);
+    color: hsl(0, 0%, 98%); 
+    border: hsl(0, 0%, 98%) solid 1px;
+    margin-left: 5vw;
+    margin-top: 4vw;
+    margin-right: 8vw;
+    width: 50vw;
+    height: 4vw;
+    font-size: 16px;
+    
+}
+.containerThree button:hover{
+    cursor: pointer;
+    background-color: white;
+    color: hsl(256, 26%, 20%);
+}
+.containerThree h4{
+    font-size: 4vw;
+    font-family: 'DM Serif Display', serif;
+    color: white;
+    font-weight: normal;
+    margin-left:5vw;
+    margin-top: 2vw;
+    line-height: 3.5vw;
+    width: 150vw;
+}
+
+footer{
+    height: 17vw;
+    width: 98.9vw;
+    background-color:hsl(0, 0%, 98%);
+    display: flexbox;
+}
+.containerFour{
+    display: flex;
+    width: 98.9vw;
+    height: 5vw;
+    align-items: center;
+    background-color: hsl(0, 0%, 98%);
+}
+#logo2{
+    margin-left: 11.4vw;
+    width: 5vw;
+}
+.logos{
+    margin-left: 62vw;
+}
+
+
+
+hr{
+    margin-left: 11.4vw;
+    width: 77vw;
+    
+}
+
+.containerFive ul{
+   overflow: hidden;
+   
+}
+.containerFive{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    height: 8vw;
+    margin-top: 2vw;
+    margin-left: 11vw;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 12px;
+    line-height: 1.5vw;
+    color:hsl(270, 9%, 17%);
+    
+}
+.containerFive ul li a{
+    text-decoration: none;
+    color:hsl(270, 9%, 17%);
+}
+.containerFive ul li a:hover{
+    text-decoration: underline;
+}
+
+h5{
+    margin-bottom: 1vw;
+    font-size: 12px;
+    color:  hsl(273, 4%, 51%);
+
+}
+/* para tamaños de pantalla que no supere los 600 px: es la condicion */ 
+
+@media screen and (max-width: 376px) {
+   nav{
+    width: 111vw;
+    height: 15vw;
+    background-color: hsl(0, 0%, 98%);
+   }
+   header {
+    width: 111vw;
+    height: 250vw;
+    display: flexbox;
+    flex-direction: column-reverse;
+   }
+   #containerOneImage{
+    width: 111vw;
+    margin-top: -4vw;
+    
+   }
+   header hr{
+    display: none;
+   }
+   .containerOne{
+    width: 100vw;
+    height: 75vw;
+    font-size: 16px;
+    line-height: 6vw;
+    text-align: center;
+    margin-bottom: 20vw;
+   }
+   .containerOne h1{
+    margin-bottom: 10vw;
+    line-height: 14vw;
+    font-size: 50px;
+    text-align: center;
+   }
+   .containerOne button{
+    width: 40vw;
+    height: 12vw;
+    margin-top: 3vw;
+   }
+   .containerOne button:hover{
+    background-color: white;
+    color: hsl(256, 26%, 20%);
+   }
+   
+   main{
+    width: 111vw;
+    height: 400vw;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+   }
+   .containerTwo{
+    display: flex;
+    gap:15vw;
+    flex-direction: column;
+    flex-wrap:nowrap;
+    width: 90vw;
+    margin-top: 15vw;
+   }
+   main hr{
+    width: 40vw;
+    margin-left: 30vw;
+   }
+   .tittleTwo h2{
+    font-size: 40px;
+    text-align: center;
+    width: 90vw;
+    margin-bottom: 7vw;
+   }
+   .containerTwo p{
+    line-height: 6vw;
+    text-align: center;
+    
+   }
+   .containerTwo h3{
+    font-size: 6vw;
+    text-align: center;
+    line-height: 8vw;
+   }
+   .containerTwo img{
+    margin-left: 32vw;
+   }
+   .containerThree{
+    width:80vw;
+    height:80vw ;
+    background-color: hsl(256, 26%, 20%);
+    margin-top: 200vw;
+    align-items: center;
+    
+   }
+   .containerThree h4{
+    text-align: center;
+    width: 200vw;
+    height: 50vw;
+    font-size: 10vw;
+    line-height: 8vw;
+    
+   }
+   .containerThree button{
+    margin-top: 80vw;
+    margin-right: 30vw;
+
+   }
+   footer{
+    width: 111vw;
+    height: 150vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: hsl(0, 0%, 98%);
+   }
+   .containerFour{
+    width: 111vw;
+    height: 25vw;
+    display: flexbox;
+    flex-direction: column;
+   }
+   .containerFour #logo2{
+    width: 40vw;
+    padding: 5vw;
+    margin-left: 4vw;
+   }
+   .containerFour .logos{
+    margin-left: 7vw;
+    display: flex;
+    gap: 4vw;
+   }
+   .containerFive{
+    width:80vw;
+    height: 110vw;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    font-size: 16px;
+    line-height: 5vw;
+    margin-left: 16vw;
+    background-color: hsl(0, 0%, 98%);
+
+   }
+  
+   .containerFive h5{
+    font-size: 4vw;
+   }
+   .containerFive ul li a{
+    text-decoration: none;
+    color:hsl(270, 9%, 17%);
+}
+   .containerFive ul li a:hover{
+    text-decoration: underline;
+}
+
+
+
+
+
+}
